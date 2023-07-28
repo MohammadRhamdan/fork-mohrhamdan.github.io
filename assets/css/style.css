@@ -407,12 +407,13 @@ section {
   align-items: center;
   flex-wrap: wrap;
 }
-.container-cards-portfolio .card {
+.container-cards-portfolio a {
   width: 32%;
   height: 280px;
   background-color: var(--three-bg-color);
   border-radius: 10px;
-  border: 1px solid black;
+  text-decoration: none;
+  box-shadow: 0 0 3px 2px rgba(93, 92, 220, .6);
 }
 /* end process section */
 
